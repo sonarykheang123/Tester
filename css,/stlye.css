@@ -1,0 +1,19 @@
+h1 {
+    color: red;
+    background-color: bisque;
+    font-size: 35px;
+    padding: 0px;
+}
+h2 {
+    color: red;
+    padding: 0px;
+}
+
+p{
+    color: red;
+}
+ul{
+    color: blue;
+    background-color: chartreuse;
+    quotes: inherit;
+}

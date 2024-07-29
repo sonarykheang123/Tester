@@ -1,0 +1,40 @@
+body{
+    background-color: white;
+    color: white;
+    font-family: sans-serif;
+}
+.card{
+    padding: 15px;
+    background-color: rgb(56, 53, 53);
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+    
+
+}
+.card:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+}
+    
+@media screen and  (max-width:600px) {
+    .colunm
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    } 
+} 
+a{
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 1rem;
+    align-content: center;
+}
+a:hover,button:hover{
+    opacity: 0.6;
+}
+.colunm{
+    justify-content: space-between;
+    display: flex;
+}
+
